@@ -1,0 +1,1 @@
+This challenge is to do with arrays and their manipulation, conditional logic statements.
