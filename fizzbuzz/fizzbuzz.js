@@ -2,14 +2,26 @@ function fizzBuzz(list1=[], list2=[]) {
     // Your code here
     
     if(((list1.length+list2.length)%5===0) && ((list1.length+list2.length)%3===0)){
-        return console.log("Fizzbuzz");}
+         console.log("Fizzbuzz");
+         return "Fizzbuzz";
+        }
 
         else if(((list1.length+list2.length)%3===0)){
-            return console.log('Fizz');}
+             console.log('Fizz');
+             return "Fizz";
+            }
             else if(((list1.length+list2.length)%5===0)){
-            return console.log("Buzz");}
+             console.log("Buzz");
+             return "Buzz";
+            }
+            /*else if(((list1.length+list2.length)%2===0)){
+                console.log("Even");
+                return "Even"
+            }*/
             else{
-            return console.log((list1.length+list2.length));}
+             console.log((list1.length+list2.length));
+             return list1.length+list2.length;
+            }
     
 }
 
